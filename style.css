@@ -1,0 +1,4 @@
+.color-fondo{ background-color: rgb(87, 146, 87);}
+.parrafo-comun{color:rgb(55, 0, 255); background-color: rgb(80, 226, 43);}
+#parrafo-especial{width: 50%;}
+#pegajoso{position:sticky;top:0;}
