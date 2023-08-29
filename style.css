@@ -1,9 +1,6 @@
 .color-fondo{ background-color: rgb(87, 146, 87);}
 .parrafo-comun{color:rgb(0, 0, 0); background-color: rgb(87, 146, 87);}
 #parrafo-especial{width: 50%;}
-.contenedor{
-    background-color: rgb(12, 139, 12);
-    position: sticky;
-    top:0;
-}
-#chiquito{position:fixed;bottom:10px;right:10px}
+.contenedor{background-color: rgb(116, 54, 13);position: sticky; top:10px;}
+#chiquito{position:fixed;bottom:10px;right:10px; width: 5%;}
+.costado{position:fixed;top:10px;right:10px;}
