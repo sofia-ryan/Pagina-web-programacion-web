@@ -4,3 +4,39 @@
 .contenedor {background-color: rgb(116, 54, 13); position: sticky; top: 0px; padding: 9px; margin: 0px; display: flex; justify-content: space-between; align-items: center;}
 #chiquito {width: 7%;}
 .costado {position: sticky; top: 50%; right: 9px;}
+
+/* @media screen and (max-width: 767px) {
+	body {
+		background-color: red;
+	}
+} */
+
+@media screen and (max-width: 1024px) {
+	.color-fondo{
+        background-color: red;
+    }
+}
+
+/* @media screen and (max-width: 1023px) and (min-width: 768px) {
+    body {
+        background-color: rgb(176, 205, 250);
+    }
+} */
+a:hover { 
+	color: rgb(255, 0, 0)!important;
+}
+
+a:active {
+    color:black!important;
+}
+
+a:visited {
+    color:blue;
+}
+p.mayuscula::first-letter {
+    color: white;
+    size: 20px;
+}
+h1::after {
+    content: ":)"
+}
