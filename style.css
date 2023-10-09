@@ -1,12 +1,21 @@
-.color-fondo{ background-color: rgb(87, 146, 87);}
-.parrafo-comun{color:rgb(0, 0, 0); background-color: rgb(87, 146, 87); margin: 30px;}
+.color-fondo{ background-color: rgb(255, 255, 255);}
+.parrafo-comun{color:rgb(0, 0, 0); margin: 30px;}
 #parrafo-especial{width: 50%;}
-.contenedor {background-color: rgb(116, 54, 13); position: sticky; top: 0px; padding: 9px; margin: 0px; display: flex; justify-content: space-between; align-items: center;}
+.contenedor {background-color: #85e7e2; position: sticky; top: 0px; padding: 9px; margin: 0px; display: flex; justify-content: space-between; align-items: center;}
 #chiquito {width: 7%;}
 .costado {position: sticky; top: 50%; right: 9px;}
 #font {font-family: "serif"; font-size:large;}
 .ordenar{display: flex; justify-content: center; display: flex; }
+.centrar{justify-content: center; text-align: center;}
 #navbar-color{background-color: #a52a2a; color: black;}
+.btn {background-color: aquamarine !important;}
+.btn{background-color: rgb(116, 54, 13);}
+.my-4-ml-3{ margin-left: 15%}
+.ordenar-img{justify-content: space-around;align-items: center; display: flex;}
+.fin-de-pagina{background-color:#17c4c42d;}
+.color-pag-contacto{background-color: #522bff2c;}
+#color-obj{background-color: #479b9b63;}
+#color-intro{background-color: azure;}
 
 /* @media screen and (max-width: 767px) {
 	body {
@@ -44,6 +53,3 @@ h2::after {
     content: ":)"
 }
 
-.btn{background-color: rgb(116, 54, 13);}
-.my-4-ml-3{ margin-left: 15%}
-.ordenar-img{justify-content: space-around;align-items: center; display: flex;}
