@@ -16,51 +16,43 @@
 	}
 </style>
 <body class="color-pag-contacto">
-	<header class="contenedor" id="font">
-		<h2> Voluntariados en el P.N Los Glaciares </h2>
-		<nav class="navbar navbar-expand-lg bg-body-tertiary" id="nav-bar" style="background-color: #e3f2fd;">
-			<div class="container-fluid">
-			  <a class="navbar-brand" href="#"><img src="./Imagenes/logo los glaciares.png" alt="Logo PN Los Glaciares" width="40" height="40" class="d-inline-block align-text-top"></a>
-			  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			  </button>
-			  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
-				  <li class="nav-item">
-					<a class="nav-link active" aria-current="page" href="http://127.0.0.1:5500/Pagina-web-programacion-web/index.html?#">Home</a>
-				  </li>
-				  <li class="nav-item">
-					<a class="nav-link" href="http://127.0.0.1:5500/Pagina-web-programacion-web/index.html?#"></a>
-				  </li>
-				  <li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-					  Mas Informacion
-					</a>
-					<ul class="dropdown-menu">
-						<li><a class="dropdown-item" href=http://127.0.0.1:5500/Pagina-web-programacion-web/PREGUNTAS_FRECUENTES.html>Preguntas Frecuentes</a></li>
-					  <li><a class="dropdown-item" href="http://127.0.0.1:5500/Pagina-web-programacion-web/PERITO_MORENO.html">Perito Moreno</a></li>
-					  <li><a class="dropdown-item" href="http://127.0.0.1:5500/Pagina-web-programacion-web/LAGO_ROCA.html">Lago Roca</a></li>
-					  <li><a class="dropdown-item" href="http://127.0.0.1:5500/Pagina-web-programacion-web/LAGO_VIEDMA.html">Lago Viedma</a></li>
-					  <li><a class="dropdown-item" href="http://127.0.0.1:5500/Pagina-web-programacion-web/TESTIMONIOS.html">Testimonios</a></li>
-					  <li><a class="dropdown-item" href="http://127.0.0.1:5500/Pagina-web-programacion-web/DOCUMENTACION.html">Documentacion</a></li>
-					  <li><hr class="dropdown-divider"></li>
-					  <li><a class="dropdown-item" href="http://127.0.0.1:5500/Pagina-web-programacion-web/CONTACTO.html">Contacto</a></li>
-					</ul>
-				  </li>
-				</ul>
-				<form class="d-flex" role="search">
-				  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-				  <button class="btn btn-outline-success" type="submit">Search</button>
-				</form>
-			  </div>
+	<header class="contenedor">
+		<p>
+			<div class="centrar">
+				<h2 id="color-cont"> Voluntariados en el P.N Los Glaciares </h2>
 			</div>
-		  </nav>
+		</p>
 	</header>
+	<ul id="navbar">
+		<li class="nv" aria-current="page">
+			<li><a href=http://127.0.0.1:5500/Pagina-web-programacion-web/PREGUNTAS_FRECUENTES.html>Preguntas Frecuentes</a></li>
+		</li>
+		<li class="nv">		
+			<li><a href="http://127.0.0.1:5500/Pagina-web-programacion-web/PERITO_MORENO.html">Perito Moreno</a></li>
+		</li>
+		<li class="nv">		
+			<li><a href="http://127.0.0.1:5500/Pagina-web-programacion-web/LAGO_ROCA.html">Lago Roca</a></li>
+		</li>
+		<li class="nv">		
+			<li><a href="http://127.0.0.1:5500/Pagina-web-programacion-web/LAGO_VIEDMA.html">Lago Viedma</a></li>
+		</li>
+		<li class="nv">		
+			<li><a href="http://127.0.0.1:5500/Pagina-web-programacion-web/TESTIMONIOS.html">Testimonios</a></li>
+		</li>
+		<li class="nv">	
+			<li><a href="http://127.0.0.1:5500/Pagina-web-programacion-web/DOCUMENTACION.html">Documentacion</a></li>
+		</li>
+		<li class="nv">
+			<a href="http://127.0.0.1:5500/Pagina-web-programacion-web/CONTACTO.html">Contacto</a></li>
+		</li>
+	</ul>
 	<main id="font">
         <p>
             <div class="centrar">
                 <h3><img style="width: 50px;" src="./Imagenes/logo-parques.png"><a>Contacto:</a></h3>
                 Para contactarnos, llamen al telefono o envien un correo electronico.
+				<br>
+				Telefono: (02902) 491005/ 491755/ 491545/ 491788
                 <br>
                 <br>
                 Nombre:
@@ -77,6 +69,8 @@
                 <br>
                 <input type="text" name="" id="" placeholder="Ingrese su mensaje:">
                 <br>
+				<br>
+				<button type="button" class="btn btn-info"><a>Enviar</a></button>
             </div>
         </p>
 	</main>

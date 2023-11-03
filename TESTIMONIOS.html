@@ -1,108 +1,139 @@
 <!DOCTYPE html>
 <html lang=”en”>
-    <head>
-        <meta charset=”UTF-8”>
-        <meta name=”viewpoint” content=”width=device=width,initial-scale=1.0”>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="./style.css">
-        <title>
-            Voluntariados Parque Nacional Los Glaciares
-        </title>
-    </head>
-    <style>
-        p.mayuscula::first-letter {
-            size: 50px;
-        }
-    </style>
-    <body class="color-fondo">
-      <header class="contenedor" id="font">
-        <h2> Voluntariados en el P.N Los Glaciares </h2>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary" id="nav-bar" style="background-color: #e3f2fd;">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img src="./Imagenes/logo los glaciares.png" alt="Logo PN Los Glaciares" width="40" height="40" class="d-inline-block align-text-top"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="http://127.0.0.1:5500/Pagina-web-programacion-web/index.html?#">Home</a>
-              </li>
-              <li class="nav-item">
-              <a class="nav-link" href="http://127.0.0.1:5500/Pagina-web-programacion-web/index.html?#"></a>
-              </li>
-              <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Mas Informacion
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href=http://127.0.0.1:5500/Pagina-web-programacion-web/PREGUNTAS_FRECUENTES.html>Preguntas Frecuentes</a></li>
-                <li><a class="dropdown-item" href="http://127.0.0.1:5500/Pagina-web-programacion-web/PERITO_MORENO.html">Perito Moreno</a></li>
-                <li><a class="dropdown-item" href="http://127.0.0.1:5500/Pagina-web-programacion-web/LAGO_ROCA.html">Lago Roca</a></li>
-                <li><a class="dropdown-item" href="http://127.0.0.1:5500/Pagina-web-programacion-web/LAGO_VIEDMA.html">Lago Viedma</a></li>
-                <li><a class="dropdown-item" href="http://127.0.0.1:5500/Pagina-web-programacion-web/TESTIMONIOS.html">Testimonios</a></li>
-                <li><a class="dropdown-item" href="http://127.0.0.1:5500/Pagina-web-programacion-web/DOCUMENTACION.html">Documentacion</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="http://127.0.0.1:5500/Pagina-web-programacion-web/CONTACTO.html">Contacto</a></li>
-              </ul>
-              </li>
-            </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
-            </div>
+  <head>
+    <meta charset=”UTF-8”>
+    <meta name=”viewpoint” content=”width=device=width,initial-scale=1.0”>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+    <title>
+        Voluntariados Parque Nacional Los Glaciares
+    </title>
+  </head>
+  <style>
+      p.mayuscula::first-letter {
+          size: 50px;
+      }
+  </style>
+  <body class="color-fondo">
+    <header class="contenedor">
+      <p>
+        <div class="centrar">
+          <h2 id="color-cont"> Voluntariados en el P.N Los Glaciares </h2>
+        </div>
+      </p>
+    </header>
+    <ul id="navbar">
+      <li class="nv" aria-current="page">
+        <li><a href=http://127.0.0.1:5500/Pagina-web-programacion-web/PREGUNTAS_FRECUENTES.html>Preguntas Frecuentes</a></li>
+      </li>
+      <li class="nv">		
+        <li><a href="http://127.0.0.1:5500/Pagina-web-programacion-web/PERITO_MORENO.html">Perito Moreno</a></li>
+      </li>
+      <li class="nv">		
+        <li><a href="http://127.0.0.1:5500/Pagina-web-programacion-web/LAGO_ROCA.html">Lago Roca</a></li>
+      </li>
+      <li class="nv">		
+        <li><a href="http://127.0.0.1:5500/Pagina-web-programacion-web/LAGO_VIEDMA.html">Lago Viedma</a></li>
+      </li>
+      <li class="nv">		
+        <li><a href="http://127.0.0.1:5500/Pagina-web-programacion-web/TESTIMONIOS.html">Testimonios</a></li>
+      </li>
+      <li class="nv">	
+        <li><a href="http://127.0.0.1:5500/Pagina-web-programacion-web/DOCUMENTACION.html">Documentacion</a></li>
+      </li>
+      <li class="nv">
+        <a href="http://127.0.0.1:5500/Pagina-web-programacion-web/CONTACTO.html">Contacto</a></li>
+      </li>
+    </ul>
+    <main>
+      <p>
+        <div class="parrafo-comun-intro">
+          <div>
+            <h3 class="centrar">Testimonios:</h3>
+            <br>
           </div>
-          </nav>
-      </header>
-        <main>
-          <p>
-            <div class="conteiner">
-              <h3 class="titulo">Testimonios:</h3>
-              <div class="galeria_port">
-                <div class="imagen_port">
-                  <img class="imagen_port" src="./Imagenes/volus-pasarelas.jpeg">
-                  <div class="hover_galeria">
-                    <img src="./Imagenes/lupa.png"> Testimonio Perito Moreno
-                  </div>
-                </div>
-                <div class="imagen_port">
-                  <img class="imagen_port" src="./Imagenes/volun-chalten.jpeg">
-                  <div class="hover_galeria">
-                    <img src="./Imagenes/lupa.png"> Testimonio El Chalten
-                  </div>
-                </div>
+          <div class="conteiner">
+            <div class="galeria_port">
+              <div class="imagen_port">
+                <img class="imagen_port" src="./Imagenes/volus-pasarelas.jpeg">
+                <p>
+                  <h4>Testimonio Micaela De Luca:</h4>
+                  <br>
+                  A principios de este año, tuve la oportunidad de vivir una de las experiencias más 
+                  increíbles y transformadoras de mi vida: ser voluntaria en el Parque Nacional Los 
+                  Glaciares, Santa Cruz. 
+                  <br>Un sueño que venía gestando hace ya tiempo, pero que me costó materializar por la 
+                  falta de tiempo y de dinero para concretarla. Luego de muchísimo trabajo, ahorros, 
+                  planificación, y de valentía para emprender mi primer viaje sola, tanto tiempo, tan lejos 
+                  (y en medio de un duelo amoroso), me animé y salté a la aventura. 
+                  Lo que encontré me dejo sin palabras. Un bosque en su estado más prístino, fauna 
+                  nativa al alcance de la vista, un lago cristalino. y un tempano gigante y azul flotando en 
+                  el. Un paisaje cuya belleza, me es difícil relatar con palabras que le hagan justicia. 
+                  El trabajo de voluntario en esta seccional, no es duro. Pero si es muy apreciado por 
+                  parte del personal del parque, que se ve atareado por la mayor afluencia de turistas; e 
+                  incluso por la misma gente, que agradece enormemente que contribuyamos a mantener 
+                  en condiciones, los paisajes que les inspiran tanto.
+                  <br>El trabajo en equipo es una necesidad diaria, y acercarte a descubrir el parque con tus 
+                  compañeros enriquece la experiencia, te permite aprender más rápido la dinámica del
+                  lugar y disfrutar de cada día. 
+                  <br>La guía de las Guardaparques, permite aprender y desarrollar con éxito, habilidades que 
+                  difícilmente encararías en tu casa. Desde el manejo de herramientas eléctricas para 
+                  trabajar la madera (lo cual, me pareció exageradamente relajante), hasta practicar ingles 
+                  cuando no te queda otra opción, para comunicarte y hacerte entender con los visitantes. 
+                  El mes se pasa rápido, por eso para poder llegar a hacer todo lo que ofrece este
+                  voluntariado, te recomiendo revisar los cuadernitos que están debajo de la barra de 
+                  madera de la cocina. Donde encontrarás la experiencia y relatos divertidísimos de 
+                  muchísimos voluntarios que decidieron alejarse un rato del internet, para encontrarse 
+                  consigo mismos y para conocer a todo el grupo.
+                  <br>Creo que muy pocos pueden decir que han tenido la gracia de vivir lo que nosotros. 
+                  Apreciar el Glaciar Moreno al amanecer y atardecer, con luna llena…Observar la vida 
+                  desde una perspectiva cíclica, y aunque sea por un rato, sentirte parte del paisaje. 
+                  <br>Por un tiempo, le entregue mi cuerpo y mi alma a este lugar. Y a cambio, el me dio algo 
+                  difícil de describir. Paz absoluta, esperanza, unos compañeros y nuevos amigos que 
+                  nunca voy a olvidar, y la confianza en mí misma que tanto necesitaba para seguir 
+                  adelante…
+                </p>
               </div>
-              <div class="galeria_port">
-                <div class="imagen_port">
-                  <img class="imagen_port" src="./Imagenes/volun-roca.jpeg">
-                  <div class="hover_galeria">
-                    <img src="./Imagenes/lupa.png"> Testimonio Lago Roca
-                  </div>
-                </div>
-                <div class="imagen_port">
-                  <img class="imagen_port" src="./Imagenes/volus-moreno-2.jpeg">
-                  <div class="hover_galeria">
-                    <img src="./Imagenes/lupa.png"> Testimonio Perito Moreno
-                  </div>
+              <div class="imagen_port">
+                <img class="imagen_port" src="./Imagenes/foto-graciosa-VyGP.jpeg">
+                <p>
+                  <h4>Testimonio Micaela De Luca:</h4>
+                  <br>
+                  Soy Melanie Matalón y fui voluntaria en el Parque Nacional Los Glaciares en Enero del 2022. En lo personal, considero la experiencia del voluntariado como una posibilidad para no sólo conocer un área natural protegida sino también, para entender su historia y las problemáticas actuales que podemos ver en esa zona, que van desde lo ambiental hasta lo jurídico-político.
+                  <br>Por otra parte, la considero como una experiencia hermosa ya que pude conocer a un grupo de personas increíbles de diferentes partes del país, haciendo referencia tanto a voluntarios/as como a guardaparques. Durante todo el mes, convivimos juntos/as lo cual llevó a que nos conociéramos en profundidad y compartiéramos un montón de momentos únicos e inolvidables.
+                  Hoy en día, habiendo pasado ya casi un año recuerdo ese mes con mucha felicidad. Definitivamente es una experiencia que volvería a repetir y recomendaría a todo el mundo a que la haga porque es inolvidable
+                </p>
               </div>
-            </div>
-          </p>
-        </main>
-        <footer class="fin-de-pagina" id="font">
-          <div class="centrar">
-            <img style="width: 50px;" src="./Imagenes/logo-parques.png"><a>Contacto:</a>
-            Intendencia del Parque Nacional Los Glaciares
-            <br>
-            Av. del Libertador 1302
-            <br>
-            El Calafate (9405)
-            <br>
-            Prov. de Santa Cruz
-            <br>
-            Mail: voluntariosglaciares@apn.gob.ar
-            <br>
-            Telefono: (02902) 491005/ 491755/ 491545/ 491788
+              <div class="imagen_port">
+                <img class="imagen_port" src="./Imagenes/volun-roca.jpeg">
+                <p>
+                  Testimonio:
+                </p>
+              </div>
+              <div class="imagen_port">
+                <img class="imagen_port" src="./Imagenes/volus-moreno-2.jpeg">
+                <p>
+                  Testimonio...:
+                </p>
+              </div>
           </div>
-          </footer>
+        </div>
+      </p>
+    </main>
+    <footer class="fin-de-pagina" id="font">
+      <div class="centrar">
+        <img style="width: 50px;" src="./Imagenes/logo-parques.png"><a>Contacto:</a>
+        Intendencia del Parque Nacional Los Glaciares
+        <br>
+        Av. del Libertador 1302
+        <br>
+        El Calafate (9405)
+        <br>
+        Prov. de Santa Cruz
+        <br>
+        Mail: voluntariosglaciares@apn.gob.ar
+        <br>
+        Telefono: (02902) 491005/ 491755/ 491545/ 491788
+      </div>
+    </footer>
