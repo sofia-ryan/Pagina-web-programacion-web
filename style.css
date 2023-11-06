@@ -1,7 +1,7 @@
 .color-fondo{ background-color: rgb(255, 255, 255);}
 .parrafo-comun-intro{color:rgb(0, 0, 0); font-family: "serif"; font-size:large; background-color: rgb(255, 255, 255);}
 .parrafo-comun-obj{color:rgb(0, 0, 0); font-family: "serif"; font-size:large; background-color: #479b9b63;}
-.parrafo-comun-documentacion{color:rgb(0, 0, 0); font-family: "serif"; font-size:large; background-color: #3091ff65; margin-top: 0%; margin-bottom: 0%;}
+/* .parrafo-comun-documentacion{color:rgb(0, 0, 0); font-family: "serif"; font-size:large; background-color: #3091ff65; margin-top: 0%; margin-bottom: 0%;} */
 .parrafo-comun{color:rgb(0, 0, 0); font-family: "serif"; font-size:large;}
 .margen{margin: 30px;}
 #parrafo-especial{width: 50%;}
@@ -32,10 +32,12 @@
     overflow: hidden;
     background-color: #36b3e4d3;
     border-radius: 0.4vw;
-    text-align: center;
-    display: flex;
     justify-content: space-evenly;
-    align-items: center;}
+    text-align: start;
+    display: flex;
+    align-items: center;
+    font-family: "serif";
+    font-size:large;}
 .titulo {
     color: #09338fc6;
     font-size: 30px;
@@ -84,9 +86,9 @@
         background-color: rgb(176, 205, 250);
     }
 } */
-a:hover { 
+/* a:hover { 
 	color: rgb(255, 0, 0)!important;
-}
+} */
 
 a:active {
     color:black!important;
