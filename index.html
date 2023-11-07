@@ -24,54 +24,47 @@
 				</div>
 			</p>
 		</header>
-		<nav class="navbar navbar-expand-lg bg-body-tertiary">
+		<nav class="navbar bg-body-tertiary fixed-top" id="navbar">
 			<div class="container-fluid">
-			  <a class="navbar-brand" href="#">Navbar scroll</a>
-			  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			  </button>
-			  <div class="collapse navbar-collapse" id="navbarScroll">
-				<ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
-				  <li class="nav-item">
-					<a class="nav-link active" aria-current="page" href="#">Home</a>
-				  </li>
-				  <li class="nav-item">
-					<a class="nav-link" href="#">Link</a>
-				  </li>
-				  <li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-					  Link
-					</a>
-					<ul class="dropdown-menu">
-					  <li><a class="dropdown-item" href="#">Action</a></li>
-					  <li><a class="dropdown-item" href="#">Another action</a></li>
-					  <li><hr class="dropdown-divider"></li>
-					  <li><a class="dropdown-item" href="#">Something else here</a></li>
-					</ul>
-				  </li>
-				  <li class="nav-item">
-					<a class="nav-link disabled" aria-disabled="true">Link</a>
-				  </li>
-				</ul>
-				<form class="d-flex" role="search">
-				  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-				  <button class="btn btn-outline-success" type="submit">Search</button>
-				</form>
-			  </div>
+				<button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+					<div class="offcanvas-header">
+						<h5 class="offcanvas-title" id="offcanvasNavbarLabel">Voluntariados en el P.N Los Glaciares</h5>
+						<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+					</div>
+					<div class="offcanvas-body" id="offcanvas">
+						<ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+							<li class="nav-item">
+								<a class="nav-link active" aria-current="page" href="http://127.0.0.1:5500/Pagina-web-programacion-web/index.html">Home</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="http://127.0.0.1:5500/Pagina-web-programacion-web/PREGUNTAS_FRECUENTES.html">Preguntas Frecuentes</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="http://127.0.0.1:5500/Pagina-web-programacion-web/TESTIMONIOS.html">Testimonios</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="http://127.0.0.1:5500/Pagina-web-programacion-web/DOCUMENTACION.html">Documentacion</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="http://127.0.0.1:5500/Pagina-web-programacion-web/CONTACTO.html">Contacto</a>
+							</li>
+						</ul>
+					</div>
+				</div>
 			</div>
-		  </nav>
+		</nav>
 	</div>
-	
 	<main>
 		<p>
 			<div class="parrafo-comun-intro">
 				<div class="parrafo-comun">
 					<div class="margen">
 						<h3>Encuentre aqui toda la informacion sobre los voluntariados en el Parque Nacional Los Glaciares.</h3>
+						<br>
 						<img style="display: block; margin: 0 auto;" src="./Imagenes/logo los glaciares.png" alt="Logo Parque Nacional Los Glaciares">
-						<br>
-						<br>
-						<a href="http://www.losglaciares.com/es/parque/voluntarios.html" target="_blank">Para más información</a> seras redirigido a la pagina de voluntariados del PN Los Glaciares.
 					</div>
 				</div>
 			</div>
@@ -90,12 +83,6 @@
 					Dentro de estos seccionales, tres de ellos, ofrecen programas de voluntariados para jovenes entre 16 y 30 años:
 					Perito Moreno, Lago Roca, Lago Viedma
 				</div>
-				<!-- <div class="ordenar">
-					<button type="button" class="btn btn-light"><a href="http://127.0.0.1:5500/Pagina-web-programacion-web/PREGUNTAS_FRECUENTES.html">Preguntas Frecuentes</a></button>
-					<button type="button" class="btn btn-light"><a href="http://127.0.0.1:5500/Pagina-web-programacion-web/TESTIMONIOS.html">Testimonios</a></button>
-					<button type="button" class="btn btn-light"><a href="http://127.0.0.1:5500/Pagina-web-programacion-web/DOCUMENTACION.html">Documentacion</a></button>
-					<button type="button" class="btn btn-light"><a href="http://127.0.0.1:5500/Pagina-web-programacion-web/CONTACTO.html">Contacto</a></button>
-				</div> -->
 				<br>
 			</div>
 			<div class="parrafo-comun-intro">
@@ -151,6 +138,8 @@
 					<li>Otorgar mínimos conocimientos y capacitación a aquellos que pretendan inscribirse al curso de “Tecnicatura en administración de Areas Protegidas” Convenio Administración de Parques Nacionales (A.P.N.) – Universidad Nacional del Tucuman (U.N.T.). Ex curso para Guardaparques.</li>
 					<li>Posibilitar la realización de tareas y lograr una mejor atención al visitante, de parte de la A.P.N.</li>
 					<br>
+					<br>
+					<a href="http://www.losglaciares.com/es/parque/voluntarios.html" target="_blank">Para más información</a> seras redirigido a la pagina de voluntariados del PN Los Glaciares.
 				</div>
 			</div>
 		</div>
