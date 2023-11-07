@@ -5,15 +5,16 @@
 .parrafo-comun{color:rgb(0, 0, 0); font-family: "serif"; font-size:large;}
 .margen{margin: 30px;}
 #parrafo-especial{width: 50%;}
-.contenedor {background-image: url(./Imagenes/moreno-con-montanas.jpg); background-size: 100% 100%; width: 100%; position: sticky; top: 0px; bottom: 0px; padding: 9px; padding-top: 2vw; padding-bottom: 2vw; margin: 0px; display: flex; justify-content: space-between; align-items: center; font-family: "serif"; font-size:large;}
+.contenedor {background-image: url(./Imagenes/moreno-con-montanas.jpg); background-size: 100% 100%; width: 100%; position: sticky !important; top: 0px; bottom: 0px; padding: 9px; padding-top: 2vw; padding-bottom: 2vw; margin: 0px; display: flex; justify-content: space-between; align-items: center; font-family: "serif"; font-size:large;}
 #color-cont{color: #ffffff;}
 #chiquito {width: 7%;}
 .costado {position: sticky; top: 50%; right: 9px;}
-.ordenar{display: flex; justify-content: center; display: flex; }
+.ordenar{display: flex; justify-content: space-evenly; display: flex; }
 .centrar{justify-content: center; text-align: center;}
 #navbar-color{background-color: #a52a2a; color: black;}
-.btn {background-color: aquamarine !important;}
+.btn {background-color: rgb(255, 255, 255) !important;}
 .btn{background-color: rgb(116, 54, 13);}
+.arriba{z-index: 100;position: sticky;top: 0;}
 .my-4-ml-3{ margin-left: 15%}
 .ordenar-img{justify-content: space-around;align-items: center; display: flex;}
 .fin-de-pagina{background-color:#17c4c42d;}
@@ -26,18 +27,28 @@
     overflow: hidden;}
 #navbar {
     list-style-type: none;
+    position: sticky;
     margin: 0vw;
     padding-top: 0.2vw;
     padding-bottom: 0.2vw;
+    top: 96px;
+    bottom: 96px;
     overflow: hidden;
-    background-color: #36b3e4d3;
+    background-color: #36b3e4;
     border-radius: 0.4vw;
     justify-content: space-evenly;
     text-align: start;
     display: flex;
     align-items: center;
     font-family: "serif";
-    font-size:large;}
+    font-size:large;
+}
+.underline{
+    text-decoration: none;
+}
+#btn-enviar{
+    background-color: #36b3e4 !important;
+}
 .titulo {
     color: #09338fc6;
     font-size: 30px;
@@ -75,10 +86,14 @@
 	}
 } */
 
-@media screen and (max-width: 1024px) {
-	.color-fondo{
-        background-color: lightgreen;
-    }
+@media only screen and (max-width: 600px){
+    body {background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;}
 }
 
 /* @media screen and (max-width: 1023px) and (min-width: 768px) {
@@ -104,3 +119,59 @@ p.mayuscula::first-letter {
 /* h2::after {
     content: ":)"
 } */
+
+
+
+.portafolio{
+    background: #ffffff;
+    margin-top: 10px;
+    padding-top: 15px;
+}
+
+.galeria-port{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.imagen-port{
+    width: 24%;
+    margin-bottom: 10px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+}
+
+.imagen-port > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.hover-galeria{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    transform: scale(0);
+    background: #36b3e4c4;
+    transition: transform .5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hover-galeria img{
+    width: 50px;
+}
+
+.hover-galeria p{
+    color: rgb(0, 0, 0);
+}
+
+.imagen-port:hover .hover-galeria{
+    transform: scale(1);
+}
