@@ -6,6 +6,7 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="./style.css">
+        <script defer src="script.js"></script>
         <title>
             Voluntariados Parque Nacional Los Glaciares
         </title>
@@ -27,7 +28,7 @@
         <nav class="navbar bg-body-tertiary fixed-top" id="navbar">
           <div class="container-fluid">
             <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+              <span class="navbar-toggler-icon"></span>
             </button>
             <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
               <div class="offcanvas-header">
@@ -37,19 +38,19 @@
               <div class="offcanvas-body" id="offcanvas">
                 <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="http://127.0.0.1:5500/Pagina-web-programacion-web/index.html">Home</a>
+                    <a class="nav-link active" aria-current="page" onclick="cambiarPaginaHome()" href="http://127.0.0.1:5500/Pagina-web-programacion-web/index.html">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="http://127.0.0.1:5500/Pagina-web-programacion-web/PREGUNTAS_FRECUENTES.html">Preguntas Frecuentes</a>
+                    <a class="nav-link" onclick="cambiarPaginaPreguntas()" href="http://127.0.0.1:5500/Pagina-web-programacion-web/PREGUNTAS_FRECUENTES.html">Preguntas Frecuentes</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="http://127.0.0.1:5500/Pagina-web-programacion-web/TESTIMONIOS.html">Testimonios</a>
+                    <a class="nav-link" onclick="cambiarPaginaTestimonios()" href="http://127.0.0.1:5500/Pagina-web-programacion-web/TESTIMONIOS.html">Testimonios</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="http://127.0.0.1:5500/Pagina-web-programacion-web/DOCUMENTACION.html">Documentacion</a>
+                    <a class="nav-link" onclick="cambiarPaginaDocumentacion()" href="http://127.0.0.1:5500/Pagina-web-programacion-web/DOCUMENTACION.html">Documentacion</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="http://127.0.0.1:5500/Pagina-web-programacion-web/CONTACTO.html">Contacto</a>
+                    <a class="nav-link" onclick="cambiarPaginaContacto()" href="http://127.0.0.1:5500/Pagina-web-programacion-web/CONTACTO.html">Contacto</a>
                   </li>
                 </ul>
               </div>

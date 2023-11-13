@@ -5,10 +5,10 @@
 .parrafo-comun{color:rgb(0, 0, 0); font-family: "serif"; font-size:large;}
 .margen{margin: 30px;}
 #parrafo-especial{width: 50%;}
-.contenedor {background-image: url(./Imagenes/moreno-con-montanas.jpg); background-size: 100% 100%; width: 100%; position: sticky !important; top: 0px; bottom: 0px; padding: 9px; padding-top: 2vw; padding-bottom: 2vw; margin: 0px; display: flex; justify-content: space-between; align-items: center; font-family: "serif"; font-size:large;}
+.contenedor {background-image: url(./Imagenes/moreno-con-montanas.jpg); background-size: 100% 100%; width: 100%; position: sticky !important; top: 0%; bottom: 0%; padding: 9%; padding-top: 2%; padding-bottom: 2%; margin: 0%; display: flex; justify-content: space-between; align-items: center; font-family: "serif"; font-size:large;}
 #color-cont{color: #ffffff;}
 #chiquito {width: 7%;}
-.costado {position: sticky; top: 50%; right: 9px;}
+.costado {position: sticky; top: 50%; right: 9%;}
 .ordenar{display: flex; justify-content: space-evenly; display: flex; }
 .centrar{justify-content: center; text-align: center;}
 #navbar-color{background-color: #a52a2a; color: black;}
@@ -20,7 +20,7 @@
 .fin-de-pagina{background-color:#93cfcf;}
 .color-pag-contacto{background-color: #522bff2c;}
 .contiener {
-    padding: 110px 0;
+    padding: 110% 0;
     width: 90%;
     max-width: 1000px;
     margin: auto;
@@ -28,12 +28,12 @@
 .navbar {
     list-style-type: none;
     position: sticky;
-    margin: 0vw;
-    padding-top: 0.2vw;
-    padding-bottom: 0.2vw;
+    margin: 0%;
+    padding-top: 0.2%;
+    padding-bottom: 0.2%;
     overflow: hidden;
     background-color: #93cfcf!important;
-    border-radius: 0.4vw;
+    border-radius: 0.4%;
     justify-content: space-between;
     text-align: end;
     display: flex;
@@ -53,16 +53,16 @@
 }
 .titulo {
     color: #09338fc6;
-    font-size: 30px;
+    font-size: 30%;
     text-align: center;
-    margin-bottom: 60px;}
+    margin-bottom: 60%;}
 .galeria_port {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;}
 .imagen_port {
     width: 35%;
-    margin-bottom: 10px;
+    margin-bottom: 10%;
     overflow: hidden;
     position: relative;
     cursor: pointer;
@@ -88,17 +88,38 @@
 	}
 } */
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 767px){
     body {background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     text-align: center;
     text-decoration: none;
-    margin: 0;
-    padding: 0;
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, sans-serif;
+    font-size: large;}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023){
+    body {background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-decoration: none;
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, sans-serif;
+    font-size: medium;}
+}
+
+@media only screen and (max-width: 768px){
+    body {background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-decoration: none;
+    margin: 0%;
+    padding: 0%;
     font-family: Arial, sans-serif;
     font-size: small;}
 }
-
 
 /* @media screen and (max-width: 1023px) and (min-width: 768px) {
     body {
@@ -118,7 +139,7 @@ a:visited {
 }
 p.mayuscula::first-letter {
     color: white;
-    size: 20px;
+    size: 20%;
 }
 /* h2::after {
     content: ":)"
@@ -128,8 +149,8 @@ p.mayuscula::first-letter {
 
 .portafolio{
     background: #ffffff;
-    margin-top: 10px;
-    padding-top: 15px;
+    margin-top: 10%;
+    padding-top: 15%;
 }
 
 .galeria-port{
@@ -140,7 +161,7 @@ p.mayuscula::first-letter {
 
 .imagen-port{
     width: 24%;
-    margin-bottom: 10px;
+    margin-bottom: 10%;
     overflow: hidden;
     position: relative;
     cursor: pointer;
@@ -169,7 +190,7 @@ p.mayuscula::first-letter {
 }
 
 .hover-galeria img{
-    width: 50px;
+    width: 50%;
 }
 
 .hover-galeria p{
