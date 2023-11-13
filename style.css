@@ -1,11 +1,11 @@
 .color-fondo{ background-color: rgb(255, 255, 255);}
-.parrafo-comun-intro{color:rgb(0, 0, 0); font-family: "serif"; font-size:large; background-color: rgb(255, 255, 255);}
-.parrafo-comun-obj{color:rgb(0, 0, 0); font-family: "serif"; font-size:large; background-color: #479b9b63;}
+.parrafo-comun-intro{color:rgb(0, 0, 0); font-family: "serif"; font-size:x-large; background-color: rgb(255, 255, 255);}
+.parrafo-comun-obj{color:rgb(0, 0, 0); font-family: "serif"; font-size:x-large; background-color: #479b9b63;}
 /* .parrafo-comun-documentacion{color:rgb(0, 0, 0); font-family: "serif"; font-size:large; background-color: #3091ff65; margin-top: 0%; margin-bottom: 0%;} */
-.parrafo-comun{color:rgb(0, 0, 0); font-family: "serif"; font-size:large;}
+.parrafo-comun{color:rgb(0, 0, 0); font-family: "serif"; font-size:x-large;}
 .margen{margin: 30px;}
 #parrafo-especial{width: 50%;}
-.contenedor {background-image: url(./Imagenes/moreno-con-montanas.jpg); background-size: 100% 100%; width: 100%; position: sticky !important; top: 0%; bottom: 0%; padding: 9%; padding-top: 2%; padding-bottom: 2%; margin: 0%; display: flex; justify-content: space-between; align-items: center; font-family: "serif"; font-size:large;}
+.contenedor {background-image: url(./Imagenes/moreno-con-montanas.jpg); background-size: 100% 100%; width: 100%; position: sticky !important; top: 0%; bottom: 0%; padding: 9%; padding-top: 2%; padding-bottom: 2%; margin: 0%; display: flex; justify-content: space-between; align-items: center; font-family: "serif"; font-size:x-large;}
 #color-cont{color: #ffffff;}
 #chiquito {width: 7%;}
 .costado {position: sticky; top: 50%; right: 9%;}
@@ -39,7 +39,7 @@
     display: flex;
     align-items: center;
     font-family: "serif";
-    font-size:large;
+    font-size:x-large;
 }
 .offcanvas{
     background-color: #17c4c4;
@@ -96,7 +96,7 @@
     margin: 0%;
     padding: 0%;
     font-family: Arial, sans-serif;
-    font-size: large;}
+    font-size: x-large;}
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023){
@@ -107,7 +107,7 @@
     margin: 0%;
     padding: 0%;
     font-family: Arial, sans-serif;
-    font-size: medium;}
+    font-size: x-large;}
 }
 
 @media only screen and (max-width: 768px){
@@ -118,7 +118,7 @@
     margin: 0%;
     padding: 0%;
     font-family: Arial, sans-serif;
-    font-size: small;}
+    font-size: x-large;}
 }
 
 /* @media screen and (max-width: 1023px) and (min-width: 768px) {
@@ -137,11 +137,7 @@ a:active {
 a:visited {
     color:rgb(0, 0, 0);
 }
-p.mayuscula::first-letter {
-    color: white;
-    size: 20%;
-}
-/* h2::after {
+h2::after {
     content: ":)"
 } */
 
