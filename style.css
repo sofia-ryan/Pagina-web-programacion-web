@@ -29,11 +29,11 @@
     list-style-type: none;
     position: sticky;
     margin: 0%;
-    padding-top: 0.2%;
-    padding-bottom: 0.2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
     overflow: hidden;
     background-color: #93cfcf!important;
-    border-radius: 0.4%;
+    border-radius: 2%;
     justify-content: space-between;
     text-align: end;
     display: flex;
@@ -137,16 +137,13 @@ a:active {
 a:visited {
     color:rgb(0, 0, 0);
 }
-h2::after {
-    content: ":)"
-} */
 
 
 
 .portafolio{
     background: #ffffff;
-    margin-top: 10%;
-    padding-top: 15%;
+    margin-top: 1%;
+    padding-top: 1%;
 }
 
 .galeria-port{
