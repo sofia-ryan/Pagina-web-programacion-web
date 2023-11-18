@@ -97,7 +97,24 @@
     padding: 0%;
     width: 100%;
     font-family: Arial, sans-serif;
-    font-size: x-large;}
+    font-size: x-large;
+    }
+    .parrafo-comun-intro{
+        width: 100%;
+        display: flex;
+    }
+    .parrafo-comun-obj{
+        width: 100%;
+        display: flex;
+    }
+    .parrafo-comun{
+        width: 100%;
+        display: flex;
+    }
+    .fin-de-pagina{
+        width: 100%;
+        display: flex;
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023){
@@ -109,7 +126,24 @@
     padding: 0%;
     width: 100%;
     font-family: Arial, sans-serif;
-    font-size: x-large;}
+    font-size: x-large;
+    }
+    .parrafo-comun-intro{
+        width: 100%;
+        display: flex;
+    }
+    .parrafo-comun-obj{
+        width: 100%;
+        display: flex;
+    }
+    .parrafo-comun{
+        width: 100%;
+        display: flex;
+    }
+    .fin-de-pagina{
+        width: 100%;
+        display: flex;
+    }
 }
 
 @media only screen and (max-width: 768px){
@@ -119,9 +153,24 @@
     text-decoration: none;
     margin: 0%;
     padding: 0%;
-    width: 100%;
     font-family: Arial, sans-serif;
-    font-size: x-large;}
+    font-size: 1.5em;}
+    .parrafo-comun-intro{
+        width: 100%;
+        display: flex;
+    }
+    .parrafo-comun-obj{
+        width: 100%;
+        display: flex;
+    }
+    .parrafo-comun{
+        width: 100%;
+        display: flex;
+    }
+    .fin-de-pagina{
+        width: 100%;
+        display: flex;
+    }
 }
 
 /* @media screen and (max-width: 1023px) and (min-width: 768px) {
@@ -141,7 +190,9 @@ a:visited {
     color:rgb(0, 0, 0);
 }
 
-
+.imagenes-preg{
+    display: flexbox;
+}
 
 .portafolio{
     background: #ffffff;
