@@ -1,7 +1,7 @@
 function enviarMensaje() {
   alert ('Su mensaje se ha enviado con éxito. ');
 }
-function cambiarPaginaTestimonios(){
+/* function cambiarPaginaTestimonios(){
   alert ('Ha entrado a la pagina de Testimonios!')
 }
 function cambiarPaginaPreguntas(){
@@ -15,7 +15,7 @@ function cambiarPaginaHome(){
 }
 function cambiarPaginaContacto(){
   alert ('Aqui puede contactarse con nosotros!')
-}
+} */
 
 (function(){
   const titleQuestions = [...document.querySelectorAll('.questions__title')];
