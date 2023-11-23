@@ -46,7 +46,7 @@
     font-size: 2%;
 }
 
-@media (min-width: 767px) and (max-width: 1580px) {
+@media (min-width: 767px) and (max-width: 1075px) {
 #color-cont {
     font-size: 3vw;
 }
