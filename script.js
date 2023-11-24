@@ -1,21 +1,6 @@
 function enviarMensaje() {
   alert ('Su mensaje se ha enviado con éxito. ');
 }
-/* function cambiarPaginaTestimonios(){
-  alert ('Ha entrado a la pagina de Testimonios!')
-}
-function cambiarPaginaPreguntas(){
-  alert ('Encuentre aqui las Preguntas Frecuentes!')
-}
-function cambiarPaginaDocumentacion(){
-  alert ('Encuentre aqui la Documentacion!')
-}
-function cambiarPaginaHome(){
-  alert ('Ha vuelto a la pagina principal.')
-}
-function cambiarPaginaContacto(){
-  alert ('Aqui puede contactarse con nosotros!')
-} */
 
 (function(){
   const titleQuestions = [...document.querySelectorAll('.questions__title')];
@@ -38,3 +23,23 @@ function cambiarPaginaContacto(){
       });
   });
 })();
+
+const openButtons = document.querySelectorAll('.open-modal');
+const modals = document.querySelectorAll('.modal');
+const closeButtons = document.querySelectorAll('.modal__close');
+
+openButtons.forEach((button) => {
+  button.addEventListener('click', (e) => {
+    e.preventDefault();
+    const modalIndex = button.getAttribute('data-modal');
+    modals[modalIndex].classList.add('modal--show');
+  });
+});
+
+closeButtons.forEach((button) => {
+  button.addEventListener('click', (e) => {
+    e.preventDefault();
+    const modal = button.closest('.modal');
+    modal.classList.remove('modal--show');
+  });
+});
