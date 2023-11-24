@@ -451,10 +451,10 @@ a:visited {
     .questions__title{
         display: flex;
         flex-direction: column;
-        font-size: 5vw;
+        font-size: 5.5vw;
     }
     .questions__show{
-        font-size: 5vw;
+        font-size: 5.5vw;
     }
     .fin-de-pagina{
         font-size: 4vw;
