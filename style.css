@@ -79,9 +79,9 @@
 
 .modal__container{
     margin: auto;
-    width: 90%;
+    width: 100%;
     max-width: 600px;
-    max-height: 90%;
+    max-height: 100%;
     background-color: #fff;
     border-radius: 6px;
     padding: 3em 2.5em;
@@ -259,7 +259,7 @@ a:visited {
 .questions__title{
     text-align: left;
     display: flex;
-    font-size: 2vw;
+    font-size: 1.5vw;
     padding: 30px 0 30px;
     cursor: pointer;
     color: #001A49;
@@ -309,12 +309,15 @@ a:visited {
     border-radius: 32px;
 }
 
-@media (min-width: 767px) and (max-width: 1075px) {
+@media (min-width: 768px) and (max-width: 1280px) {
     .parrafo-comun-intro{
         font-size: 3vw;
     }
     .parrafo-comun-obj{
         font-size: 3vw;
+    }
+    .centrar{
+        font-size: 5vw;
     }
     #color-cont {
         font-size: 3vw;
@@ -331,7 +334,7 @@ a:visited {
     .questions__title{
         display: flex;
         flex-direction: column;
-        font-size: 15vw
+        font-size: 3vw
     }
     .questions__show{
         font-size: 2vw;
@@ -354,11 +357,15 @@ a:visited {
     text-align: center;
     font-size: 3vw;
     }
-    
+    .hover-galeria{
+        font-size: 4vw;
     }
+    .modal__paragraph{
+        font-size: 1.25vw;
+    }
+}
 
-/* HACER RESPONSIVE PARA PANTALLAS PEQUEÑAS */
-@media (max-width: 766px){
+@media (min-width:625) and (max-width: 767px){
     .parrafo-comun-intro{
         font-size: 4vw;
     }
@@ -367,7 +374,7 @@ a:visited {
     }
     .offcanvas{
         background-color: #17c4c4;
-        font-size: 4vw !important;
+        font-size: 5vw !important;
     }
     .centrar{
         font-size: 5vw;
@@ -381,10 +388,10 @@ a:visited {
     .questions__title{
         display: flex;
         flex-direction: column;
-        font-size: 4vw !important
+        font-size: 4vw!important;
     }
     .questions__show{
-        font-size: 3vw;
+        font-size: 4vw;
     }
     .fin-de-pagina{
         font-size: 3vw;
@@ -398,13 +405,81 @@ a:visited {
         width: 100%;
         margin-top: 1%;
         padding-top: 1%;
-        flex-direction: column;
-        align-items: center;
     }
     .hover-galeria{
         font-size: 3vw;
     }
+    .modal{
+        width:100%
+    }
     .modal__paragraph{
-        font-size: 67%;
+        font-size: 2vw;
     }
     }
+
+@media (min-width:480) and (max-width:624) {
+    .parrafo-comun-intro{
+        font-size: 4vw;
+    }
+    .parrafo-comun-obj{
+        font-size: 4vw;
+    }
+    #color-cont{
+        font-size: 4vw;
+    }
+    .contenedor{
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    .navbar{
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+    .offcanvas{
+        background-color: #17c4c4;
+        font-size: 6vw !important;
+    }
+    .centrar{
+        font-size: 6vw;
+    }
+    .questions__container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        font-size: 5vw;
+        }
+    .questions__title{
+        display: flex;
+        flex-direction: column;
+        font-size: 5vw;
+    }
+    .questions__show{
+        font-size: 5vw;
+    }
+    .fin-de-pagina{
+        font-size: 4vw;
+    }
+    .centrar-footer{
+        margin: 3vw;
+        font-size: 3vw;
+        padding: 2vw;
+    }
+    .galeria-port{
+        width: 100%;
+        flex-direction: column !important;
+        align-items: center;
+        justify-content: center;
+        place-items: center;
+        margin-top: 1%;
+        padding-top: 1%;
+    }
+    .hover-galeria{
+        font-size: 4vw;
+    }
+    .modal{
+        width:100%
+    }
+    .modal__paragraph{
+        font-size: 2vw;
+    }
+}
