@@ -5,13 +5,13 @@
 .parrafo-comun{color:rgb(0, 0, 0); font-family: "serif"; font-size:x-large;}
 .margen{margin: 3%;}
 #parrafo-especial{width: 50%;}
-.contenedor {background-image: url(./Imagenes/moreno-con-montanas.jpg); background-size: 100% 100%; width: 100%; position: sticky !important; top: 0%; bottom: 0%; padding: 9%; padding-top: 2%; padding-bottom: 2%; margin: 0%; display: flex; justify-content: space-between; align-items: center; font-family: "serif"; font-size:x-large;}
+.contenedor {background-image: url(./Imagenes/moreno-con-montanas.jpg); background-size: 100% 100%; width: 100%; position: sticky !important; top: 0%; bottom: 0%; padding: 5%; padding-top: 1.5%; padding-bottom: 1.5%; margin: 0%; display: flex; justify-content: space-between; align-items: center; font-family: "serif"; font-size:x-large;}
 #color-cont{color: #ffffff;}
 #chiquito {width: 7%;}
 .costado {position: sticky; top: 50%; right: 9%;}
 .ordenar{display: flex; justify-content: space-evenly; display: flex; }
 .centrar{justify-content: center; text-align: center;}
-.centrar-footer{justify-content: center; text-align: center; font-size: 2vw;}
+.centrar-footer{justify-content: center; text-align: center; font-size: 1.5vw;}
 .centrar-navbar{justify-content: center; text-align: center;}
 #navbar-color{background-color: #a52a2a; color: black;}
 .btn {background-color: rgb(255, 255, 255) !important;}
@@ -23,9 +23,9 @@
 .color-pag-contacto{background-color: #522bff2c;}
 
 .contiener {
-    padding: 110% 0;
+    padding: 100% 0;
     width: 90%;
-    max-width: 1000px;
+    max-width: 100%;
     margin: auto;
     overflow: hidden;}
 
@@ -33,8 +33,8 @@
     list-style-type: none;
     position: sticky;
     margin: 0%;
-    padding-top: 1%;
-    padding-bottom: 1%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
     overflow: hidden;
     background-color: #93cfcf!important;
     border-radius: 1%;
@@ -91,7 +91,7 @@
 
 .modal__paragraph{
     margin-bottom: 0.5vw;
-    font-size: 1.50vw;
+    font-size: 1vw;
 }
 
 .modal__close{
@@ -151,7 +151,7 @@ font-size: 3vw;
 }
 
 }
-
+/* HACER RESPONSIVE PARA PANTALLAS PEQUEÑAS */
 @media (max-width: 766px){
 #color-cont {
     font-size: 4vw;
@@ -211,10 +211,11 @@ font-size: 3vw;
 .galeria_port {
     display: flex;
     justify-content: space-evenly;
-    flex-wrap: wrap;}
+    flex-wrap: wrap;
+}
 
 .imagen_port {
-    width: 15%;
+    width: 5%;
     margin-bottom: 0.5vw;
     overflow: hidden;
     position: relative;
@@ -256,10 +257,6 @@ a:visited {
     color:rgb(0, 0, 0);
 }
 
-.imagenes-preg{
-    display: flexbox;
-}
-
 .portafolio{
     background: #ffffff;
     margin-top: 1%;
@@ -267,9 +264,11 @@ a:visited {
 }
 
 .galeria-port{
+    margin-top: 0%;
+    margin-bottom: 0%;
     display: flex;
     justify-content: space-evenly;
-    flex-wrap: wrap;
+    flex-wrap:wrap;
 }
 
 .imagen-port{
