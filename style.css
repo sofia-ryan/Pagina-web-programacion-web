@@ -374,6 +374,10 @@ a:visited {
 }
 
 @media (max-width: 480px) {
+    .html{
+        overflow: scroll;
+        height: 150px;
+    }
     .tamano{
         height: 150px;
     }
