@@ -240,8 +240,8 @@ a:visited {
 .questions__container{
     display: grid;
     gap: 2em;
-    padding-top: 3%;
-    padding-bottom: 3%;
+    padding-top: 3px;
+    padding-bottom: 3px;
 }
 
 .questions__padding{
@@ -252,7 +252,7 @@ a:visited {
 }
 
 .questions__padding--add{
-    padding-bottom: 10px;
+    padding-bottom: 30px;
 }
 
 .questions__answer{
@@ -264,8 +264,8 @@ a:visited {
 .questions__title{
     text-align: left;
     display: flex;
-    font-size: 1.5vw;
-    padding: 30px 0 30px;
+    font-size: 20px;
+    padding: 5px 0 3px;
     cursor: pointer;
     color: #001A49;
     justify-content: space-between;
@@ -334,15 +334,15 @@ a:visited {
         }
     .offcanvas{
         background-color: #17c4c4;
-        font-size: 3vw;
+        font-size: 2vw;
     }
     .questions__title{
         display: flex;
         flex-direction: column;
-        font-size: 3vw
+        font-size: 2vw
     }
     .questions__show{
-        font-size: 2vw;
+        font-size: 1.5vw;
     }
     .fin-de-pagina{
         font-size: 2vw;
@@ -395,7 +395,7 @@ a:visited {
     font-size: 3px;
     }
     #color-cont {
-    font-size: 30px;
+    font-size: 3px;
     }
     .contenedor {
     padding-top: 5%;
@@ -407,24 +407,24 @@ a:visited {
     }
     .offcanvas {
     background-color: #17c4c4;
-    font-size: 39px !important;
+    font-size: 3px !important;
     }
     .centrar {
-    font-size: 39px;
+    font-size: 3px;
     }
     .questions__container {
     width: 100%;
     display: flex;
     flex-direction: column;
-    font-size: 33px;
+    font-size: 3px;
     }
     .questions__title {
     display: flex;
     flex-direction: column;
-    font-size: 36px;
+    font-size: 3px;
     }
     .questions__show {
-    font-size: 36px;
+    font-size: 3px;
     }
     .fin-de-pagina {
     font-size: 30px;
