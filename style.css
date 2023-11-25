@@ -369,7 +369,7 @@ a:visited {
 
 @media (max-width: 480px) {
     .body{
-        height: auto;
+        height: 50%;
     }
     .pagina_contacto {
     width: 100%;
