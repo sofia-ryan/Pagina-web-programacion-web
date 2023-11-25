@@ -310,6 +310,9 @@ a:visited {
     padding: 13px 30px;
     border-radius: 32px;
 }
+.tamano{
+    height: auto;
+}
 
 @media (min-width: 1024px){
     .parrafo-comun-intro{
@@ -368,7 +371,7 @@ a:visited {
 }
 
 @media (max-width: 480px) {
-    .body{
+    .tamano{
         height: 50%;
     }
     .pagina_contacto {
