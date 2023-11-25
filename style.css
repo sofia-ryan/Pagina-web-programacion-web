@@ -368,39 +368,44 @@ a:visited {
 }
 
 @media (max-width: 480px) {
+    .body{
+        height: auto;
+    }
     .pagina_contacto {
-      width: 100%;
-      height: 100vh;
+    width: 100%;
+    height: 100vh;
     }
     .parrafo-comun-intro {
-      font-size: 36px;
+    width: 100%;
+    font-size: 36px;
     }
     .parrafo-comun-obj {
-      font-size: 36px;
+    width:100%;
+    font-size: 36px;
     }
     #color-cont {
-      font-size: 30px;
+    font-size: 30px;
     }
     .contenedor {
-      padding-top: 5%;
-      padding-bottom: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
     }
     .navbar {
-      padding-top: 2%;
-      padding-bottom: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
     }
     .offcanvas {
-      background-color: #17c4c4;
-      font-size: 39px !important;
+    background-color: #17c4c4;
+    font-size: 39px !important;
     }
     .centrar {
-      font-size: 39px;
+    font-size: 39px;
     }
     .questions__container {
-      width: 100%;
-      display: flex;
-      flex-direction: column;
-      font-size: 33px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-size: 33px;
     }
     .questions__title {
     display: flex;
